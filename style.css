@@ -1,12 +1,15 @@
+/* nama kelas */
 .jumbotron {
   padding-top: 6rem;
   background-color: #e2edff;
 }
 
+/* id */
 #projects {
   background-color: #e2edff;
 }
 
+/* section */
 section {
   padding-top: 5rem;
 }
