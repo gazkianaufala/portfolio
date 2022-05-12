@@ -1,0 +1,7 @@
+cara upload ke github
+git add .
+git commit -m 'pesan'
+git push
+
+cara repository not found
+git remote set-url origin https://github.com/gazkianaufala/portfolio.git
