@@ -89,7 +89,7 @@
         </div>
         <div class="row justify-content-center">
            <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-left" data-aos-duration="500">
+            <div class="card" data-aos="flip-left" data-aos-duration="1500">
               <img src="img/projects/projects1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -97,7 +97,7 @@
             </div>
            </div>
            <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
+            <div class="card" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="300">
               <img src="img/projects/projects2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -105,7 +105,7 @@
             </div>
            </div>
            <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
+            <div class="card" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="400">
               <img src="img/projects/projects3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -113,7 +113,7 @@
             </div>
            </div>
            <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
+            <div class="card" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="500">
               <img src="img/projects/projects4.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -121,7 +121,7 @@
             </div>
            </div>
            <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+            <div class="card" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="550">
               <img src="img/projects/projects5.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -130,6 +130,41 @@
            </div>
         </div>
       </div>
+
+      <section id="my-keyboards">
+        <div class="container">
+          <div class="row mb-3">
+            <div class="col">
+              <h2>My Keyboards</h2>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-lg-4 mb-3">
+                <div class="keyboard-box">
+                  <h4 class="keyboard-name">Womier RGB</h4>
+                  <img src="img/keyboards/1.png" alt="Keychorne K2" class="keyboard-img">
+                  <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-3">
+                <div class="keyboard-box">
+                  <h4 class="keyboard-name">Red Dragon</h4>
+                  <img src="img/keyboards/2.png" alt="Keychorne K2" class="keyboard-img">
+                  <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-3">
+                <div class="keyboard-box">
+                  <h4 class="keyboard-name">Keychrone K2</h4>
+                  <img src="img/keyboards/3.png" alt="Keychorne K2" class="keyboard-img">
+                  <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,96L60,122.7C120,149,240,203,360,213.3C480,224,600,192,720,170.7C840,149,960,139,1080,133.3C1200,128,1320,128,1380,128L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
     </section>
     <!-- akhir projects -->
@@ -256,7 +291,7 @@
 
       galleryImage.forEach((img, i) => {
         img.dataset.aos = 'fade-down';
-        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDelay = i * 300;
         img.dataset.aosDuration = 1000;
       });
 
@@ -303,6 +338,17 @@
           .catch(error => console.error('Error!', error.message))
       })
     </script>
+
+  <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelectorAll(".keyboard-box"), {
+      max: 35,
+      speed: 1000,
+      glare: true
+    });
+    
+  
+  </script>
 
   </body>
 </html>

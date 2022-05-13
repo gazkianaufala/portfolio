@@ -7,10 +7,14 @@ git push
 cara repository not found
 git remote set-url origin https://github.com/gazkianaufala/portfolio.git
 
-
-cara menambahkan gelobang
-https://getwaves.io/
-
-
 cara Menyimpan Pesan dari Contact Form ke dalam GOOGLE SHEETS
 https://github.com/jamiewilson/form-to-google-sheets
+
+cara menambahkan animasi
+https://getwaves.io/
+https://michalsnik.github.io/aos/
+https://greensock.com/gsap/
+
+cara menambahkan efek 3d
+https://micku7zu.github.io/vanilla-tilt.js/
+
